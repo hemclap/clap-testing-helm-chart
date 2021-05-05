@@ -1,0 +1,4 @@
+apiVersion: v2
+name: mantisbt
+description: mantisbt
+type: application

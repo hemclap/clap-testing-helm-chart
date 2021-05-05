@@ -1,0 +1,11 @@
+apiVersion: v2
+name: mantisbt
+description: mantisbt
+type: application
+
+version: 1.0
+
+dependencies:
+  - name: mantis
+    version: 1.0
+    repository: ./
