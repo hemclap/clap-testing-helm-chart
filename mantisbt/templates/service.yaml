@@ -1,13 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mantisbt
-  namespace: mantisbt
+  name: {{ include "mantisbt.fullname" . }}
   labels:
-    app: mantisbt
+    {{- include "mantisbt.labels" . | nindent 4 }}
 spec:
-  selector:
-    app: mantisbt
+  type: {{ .Values.service.type }}
   ports:
-    - name: http
-      port: 80
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "mantisbt.selectorLabels" . | nindent 4 }}
