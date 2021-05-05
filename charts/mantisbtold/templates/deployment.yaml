@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mantisbt
+  name: mantisbt
+  namespace: mantisbt
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mantisbt
+  template:
+    metadata:
+      labels:
+        app: mantisbt
+    spec:
+      containers:
+      - image: xlrl/mantisbt
+        name: mantisbt
+        ports:
+        - containerPort: 80
+
