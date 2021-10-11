@@ -35,11 +35,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: https
-<<<<<<< HEAD
               containerPort: 443
-=======
-              containerPort: 80
->>>>>>> 5622a84a0c5f23b6ac18747d1729ef3bbe8d4d20
               protocol: TCP
           livenessProbe:
             httpsGet:
