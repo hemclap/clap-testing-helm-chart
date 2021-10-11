@@ -22,14 +22,4 @@ entries:
     urls:
     - mantisbt-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-07-21T16:17:13.393641215+02:00"
-    description: A Helm chart for Kubernetes
-    digest: f8897169e0b359aa5921adab76371f2c2ae1d71df8070c8eb04247c86a4b4824
-    name: mantisbt
-    type: application
-    urls:
-    - mantisbt.tgz
-    version: 0.1.0
 generated: "2021-07-21T16:17:13.39147187+02:00"
