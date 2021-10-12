@@ -3,23 +3,23 @@ entries:
   glpi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-21T16:17:13.391967101+02:00"
+    created: "2021-10-12T11:18:23.193873507+02:00"
     description: A Helm chart for Kubernetes
     digest: eb871b21df7bc9244b4d38c961ab3a76ba4264a95c7c360e223dd3957201f37b
     name: glpi
     type: application
     urls:
-    - glpi-0.1.0.tgz
+    - https://github.com/hemclap/clap-testing-helm-chart/helm-chart-sources/glpi-0.1.0.tgz
     version: 0.1.0
   mantisbt:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-21T16:17:13.392333066+02:00"
+    created: "2021-10-12T11:18:23.194294552+02:00"
     description: A Helm chart for Kubernetes
-    digest: adeb00806b14703897189c301a66e86ab477cef2a041e5fbfe185435dc6eebf3
+    digest: fe539f3ae13342bd1af619bb4f72117c1654c7dc90a84a15db1f4764f49491a3
     name: mantisbt
     type: application
     urls:
-    - mantisbt-0.1.0.tgz
+    - https://github.com/hemclap/clap-testing-helm-chart/helm-chart-sources/mantisbt-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-21T16:17:13.39147187+02:00"
+generated: "2021-10-12T11:18:23.193236324+02:00"
